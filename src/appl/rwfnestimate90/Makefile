@@ -1,4 +1,3 @@
-
 .SUFFIXES: .f90 .mod
 
 EXE = rwfnestimate
@@ -35,4 +34,3 @@ $(EXE): ${APP_IOBJ} $(APP_OBJ)
 
 clean:
 	-rm -f *.o core *.mod
-
